@@ -151,6 +151,10 @@ body{
 
 @media only screen and (max-width:720px){
 
+  .column{
+    font-size: 20px;
+  }
+
   .column img{
     margin: 5px;
     width: 80%;
@@ -161,6 +165,27 @@ body{
   .column img:hover{
   
     width: 300px;
+  
+  }
+  .accordion {
+    background-color:#decbb1;
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.1s;
+    
+  }
+  .bio{
+
+    text-align: justify;
+    color:whitesmoke;
+    font-size: 20px;
+  
   
   }
 
