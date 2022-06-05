@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>iLife.NET</title>
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+
+<body>
+  
+  <header class="header">
+      <div class="headText">
+       <h class ="webName">BIOGRAPHY</h>
+      </div>
+    </header>
+    <div class="topnav">
+      <a href="#">Home</a>
+      <a href="#">Dashboard</a>
+      <a href="#">Logout</a>
+    </div>
+
+    <div class ="row">
+      <div class="row">
+        <div class="column">
+          <img src="FB_IMG_15983563107723165.jpg" alt="Avatar" class="image">
+        </div>
+        
+        <div class="column">
+          <h>Name: Clark SubingSubing</h><br>
+          <h>Age: 23</h><br>
+          <h>Birthday: September 16, 1998</h><br>
+          <h>Motto: To live without a dream is the biggest failure a man can commit</h>
+        </div>
+        
+      </div>
+    </div>
+
+    <button class="accordion">Hobbies</button>
+    <div class="panel">
+      <p>During my free time especially Saturday and Sundays I spent my time studying, practicing and teaching musical instruments to the kids. on Sundays I spent my day in our housechurch, praising and worshiping God.</p>
+      <p>and the rest of the weekend I spent my time studying Newtorking and Web Design</p>
+    </div><br>  
+    <button class="accordion">Goals & Dream</button>
+    <div class="panel">
+     <p>During on my OJT next semester, I'll do my best to have a good track record so that I will be absorbed in the company, while working Im planning to pursue Computer Science and pursue my dream to become a Network Engineer/Web Designer. Is it hard to attain? Yes, it will be hard, but, it it's not impossible</p>
+    </div>
+  
+    
+  <div class="main">
+    <div class ="bio">
+      <p>I am Clark SubingSubing, an IT student whose unsure of what lies ahead. But, I am an optimistic person who has a big dream to become a succesful person</p>
+      <p>I am the eldest of my four siblings, I grew up in an indigent family and  was raised by my Grandmother who is a little bit disciplinary and strict, but even though she's strict Im thankful that she raised me up in that way and made me to a responsible person. I graduated elementary at Leonard Wood Elementary School and finished my high school at Compostela National High School, and Im currently studying at CITE Technical Institute, Inc. under Computer Engineering Department.  </p>
+    </div>
+  </div>
+
+
+  <footer class="footerBox">
+    <div class = "footerText">
+      <h class = "fText1">iLife, making life's inspirations</h>
+      <p>All Rights Reserved 2042</p>
+      <a target="_blank" href="https://www.facebook.com/megumi131"><img src="fb.png"></a>
+      <a target="_blank" href="https://github.com/CLARKSSQUARED"><img src="github-icon-16-256.png"> </a>
+
+    </div>
+  </footer>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+  
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+      });
+      }
+
+      
+    </script>
+  
+</body>
+</html>
